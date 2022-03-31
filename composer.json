@@ -1,5 +1,5 @@
 {
-    "name": "tekreme73/laravel-config-writer",
+    "name": "DuelistRag3/laravel-config-writer",
     "description": "Laravel provider to be able to rewrite configuration",
     "keywords": ["laravel", "config", "write", "provider"],
     "license": "MIT",
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Tekreme73\\Laravel\\ConfigWriter\\": "src/"
+            "DuelistRag3\\Laravel\\ConfigWriter\\": "src/"
         }
     },
     "minimum-stability": "dev",
