@@ -1,5 +1,5 @@
 {
-    "name": "DuelistRag3/laravel-config-writer",
+    "name": "duelistrag3/laravel-config-writer",
     "description": "Laravel provider to be able to rewrite configuration",
     "keywords": ["laravel", "config", "write", "provider"],
     "license": "MIT",
