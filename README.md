@@ -24,7 +24,7 @@ composer require "duelistrag3/laravel-config-writer"
 Add this to `app/config/app.php` under the 'providers' key:
 
 ```php
-DuelistRag3\Laravel\ConfigWriter\ServiceProvider::class,
+DuelistRag3\ConfigWriter\ServiceProvider::class,
 ```
 
 ### Lumen case
@@ -32,7 +32,7 @@ DuelistRag3\Laravel\ConfigWriter\ServiceProvider::class,
 Add this to `bootstrap/app.php` in the 'service providers' section declaration:
 
 ```php
-$app->register(DuelistRag3\Laravel\ConfigWriter\ServiceProvider::class);
+$app->register(DuelistRag3\ConfigWriter\ServiceProvider::class);
 ```
 
 ## Usage
