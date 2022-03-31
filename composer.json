@@ -5,8 +5,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Rémi Rebillard",
-            "email": "tekreme73@gmail.com"
+            "name": "Christian D.",
+            "email": "admin@christian-dullin.de"
         }
     ],
     "require": {
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DuelistRag3\\Laravel\\ConfigWriter\\": "src/"
+            "DuelistRag3\\ConfigWriter\\": "src/"
         }
     },
     "minimum-stability": "dev",
