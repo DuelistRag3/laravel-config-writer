@@ -1,13 +1,13 @@
 <?php
 
-namespace Tekreme73\Laravel\ConfigWriter;
+namespace DuelistRag3\ConfigWriter\Providers;
 
 use Illuminate\Filesystem\Filesystem;
-use Tekreme73\Laravel\ConfigWriter\Repository;
-use Tekreme73\Laravel\ConfigWriter\DataWriter\FileWriter;
+use DuelistRag3\ConfigWriter\Repository;
+use DuelistRag3\ConfigWriter\DataWriter\FileWriter;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
-class ServiceProvider extends BaseServiceProvider
+class ConfigWriterServiceProvider extends BaseServiceProvider
 {
     /**
      * Register the service provider.

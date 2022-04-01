@@ -1,9 +1,9 @@
 <?php
 
-namespace Tekreme73\Laravel\ConfigWriter\DataWriter;
+namespace DuelistRag3\ConfigWriter\DataWriter;
 
 use Illuminate\Filesystem\Filesystem;
-use Tekreme73\Laravel\ConfigWriter\DataWriter\Rewrite;
+use DuelistRag3\ConfigWriter\DataWriter\Rewrite;
 
 class FileWriter
 {
@@ -24,7 +24,7 @@ class FileWriter
     /**
      * The config rewriter object.
      *
-     * @var \Tekreme73\Laravel\ConfigWriter\DataWriter\Rewrite
+     * @var \DuelistRag3\ConfigWriter\DataWriter\Rewrite
      */
     protected $rewriter;
 

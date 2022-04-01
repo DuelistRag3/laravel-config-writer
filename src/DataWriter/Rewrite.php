@@ -1,6 +1,6 @@
 <?php
 
-namespace Tekreme73\Laravel\ConfigWriter\DataWriter;
+namespace DuelistRag3\ConfigWriter\DataWriter;
 
 use Exception;
 

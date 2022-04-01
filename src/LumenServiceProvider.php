@@ -1,9 +1,9 @@
 <?php
 
-namespace Tekreme73\Laravel\ConfigWriter;
+namespace DuelistRag3\ConfigWriter;
 
 use Laravel\Lumen\Application;
-use Tekreme73\Laravel\ConfigWriter\ServiceProvider;
+use DuelistRag3\ConfigWriter\ServiceProvider;
 
 class LumenServiceProvider extends ServiceProvider
 {
