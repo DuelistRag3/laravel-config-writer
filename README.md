@@ -51,7 +51,7 @@ app('config')->write('app.url', 'http://domain.com');
 The `Rewrite` class can be used anywhere.
 
 ```php
-$writeConfig = new DuelistRag3\Laravel\ConfigWriter\DataWriter\Rewrite;
+$writeConfig = new DuelistRag3\ConfigWriter\DataWriter\Rewrite;
 $writeConfig->toFile('path/to/config.php', [
     'item' => 'new value',
     'nested.config.item' => 'value',
